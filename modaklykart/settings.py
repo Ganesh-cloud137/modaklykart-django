@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'accounts',
     'store',
     'carts',
+    'orders',
 ]
 
 MIDDLEWARE = [
@@ -148,4 +149,5 @@ EMAIL_PORT = 587
 EMAIL_HOST_USER = 'gc3017724@gmail.com'
 EMAIL_HOST_PASSWORD = 'rbwglferxwcczvng'
 EMAIL_USE_TLS = True
+DEFAULT_FROM_EMAIL = EMAIL_HOST_USER
 
